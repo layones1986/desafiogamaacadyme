@@ -1,0 +1,227 @@
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        header {
+            display: flex;
+            position: absolute;
+            width: 1440px;
+            height: 117px;
+            left: 0px;
+            top: 0px;
+            background: #2E948A;
+            box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+        }
+        
+        .logo-header {
+            position: absolute;
+            width: 164px;
+            height: 64px;
+            left: 162px;
+            top: 33px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 3.5rem;
+            line-height: 64px;
+        }
+        
+        .cursos {
+            position: absolute;
+            width: 80px;
+            height: 23px;
+            left: 1028px;
+            top: 47px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+            list-style: none;
+        }
+        
+        .blog {
+            position: absolute;
+            width: 55px;
+            height: 23px;
+            left: 1150px;
+            top: 47px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            text-transform: uppercase;
+            list-style: none;
+        }
+        
+        .contato {
+            position: absolute;
+            width: 95px;
+            height: 23px;
+            left: 1242px;
+            top: 47px;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            text-transform: uppercase;
+            list-style: none;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            color: #FDFDFD;
+        }
+        
+        ul li a:hover {
+            color: #5a0053;
+            border-radius: 10px;
+            transition: 1.5ms ease;
+        }
+        
+        .img-contato {
+            display: flex;
+            position: absolute;
+            width: 444px;
+            height: 444px;
+            left: 833px;
+            top: 199px;
+        }
+        
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 200px 45px;
+            left: 100px;
+            width: 900px;
+        }
+        
+        .text-nome {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        
+        .text-email {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        
+        .text-msg {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        
+        .text-cabeç {
+            font-size: 30px;
+            padding: 10px;
+            margin: 10px;
+            color: #FF4081;
+        }
+        
+        .btn {
+            left: 2.02%;
+            right: 79.21%;
+            top: 94.51%;
+            bottom: 0.24%;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: lowercase;
+            color: #FF4081;
+            border-radius: 20px;
+        }
+        
+        .text-entrar {
+            text-decoration: none;
+            top: 20px;
+            left: 20px;
+            font-size: 20px;
+            padding: 20px;
+            margin: 20px;
+            color: #FF4081;
+        }
+        
+        .container04 {
+            position: absolute;
+            width: 1440px;
+            height: 200px;
+            left: 0px;
+            top: 700px;
+            background: #419488;
+        }
+        
+        .mini-menu li {
+            list-style: none;
+            text-align: center;
+            right: 51.81%;
+            margin: 1.5%;
+            top: 56.6%;
+            bottom: 34.3%;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+        }
+        
+        .btn-footer {
+            box-sizing: border-box;
+            position: absolute;
+            left: 70.42%;
+            right: 9.51%;
+            top: 24.15%;
+            bottom: 51.21%;
+            border: 2px solid #FFFFFF;
+            border-radius: 62px;
+        }
+        
+        .btn-footer1 {
+            box-sizing: border-box;
+            position: absolute;
+            left: 70.42%;
+            right: 9.51%;
+            top: 55.07%;
+            bottom: 20.29%;
+            border: 2px solid #FFFFFF;
+            border-radius: 62px;
+        }
+        
+        .text-prof {
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(71, 70, 71);
+        }
+        
+        .text-link {
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(92, 86, 86);
+        }
+        
+        .logo-footer {
+            list-style: none;
+            position: absolute;
+            left: 9, 55%;
+            right: 69.44%;
+            top: 28.5%;
+            bottom: 43.48%;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 66px;
+            line-height: 76px;
+            color: #FFFFFF;
+        }
